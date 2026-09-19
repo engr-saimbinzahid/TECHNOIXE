@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — TECHNOXIE | Get a Free Quote</title>
+  <meta name="description"
+    content="Get in touch with TECHNOXIE for a free consultation. Contact us for web development, app development, AI automation, and all digital services.">
+  <meta property="og:title" content="Contact Us — TECHNOXIE">
+  <meta property="og:description" content="Get a free quote for your project. We'd love to hear from you.">
+  <meta property="og:image" content="../assets/logos/logo.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/jpeg" href="../assets/logos/logo.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="TECHNOXIE Home">
+        <img src="assets/logos/logo.jpg" alt="TECHNOXIE Logo" width="42" height="42">
+        <span class="nav-logo-text">TECHNO<span>XIE</span></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="pages/services.html">Services</a>
+        <a href="pages/portfolio.html">Portfolio</a>
+        <a href="pages/courses.html">Courses</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/contact.html" class="nav-cta">
+          <i class="fas fa-paper-plane"></i> Get Quote
+        </a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+  <div id="navbar-placeholder"></div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get in <span class="text-gradient">Touch</span></h1>
+      <p>Have a project in mind? Let's talk about how we can help you achieve your digital goals.</p>
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="glass-card reveal">
+          <h2
+            style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--clr-text-white); margin-bottom: var(--space-xl);">
+            Send Us a Message
+          </h2>
+
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+              <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+              <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+              <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Required *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="web-development">Web Development</option>
+                <option value="app-development">Mobile App Development</option>
+                <option value="software-development">Software Development</option>
+                <option value="ai-automation">AI Automation & AI Agents</option>
+                <option value="ui-ux-design">UI/UX & Graphic Design</option>
+                <option value="cloud-services">Cloud Services</option>
+                <option value="it-support">IT Support Services</option>
+                <option value="networking">Networking Services</option>
+                <option value="final-year-projects">Final Year Projects</option>
+                <option value="social-media">Social Media Management</option>
+                <option value="video-editing">Video Editing</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5"
+                required></textarea>
+              <span class="error-message"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+
+          <!-- Success Message -->
+          <div class="form-success">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div>
+          <div class="glass-card contact-info-card reveal">
+            <h3
+              style="font-family: var(--font-heading); font-size: 1.3rem; font-weight: 700; color: var(--clr-text-white); margin-bottom: var(--space-xl);">
+              Contact Information
+            </h3>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Office Location</h4>
+                <p>Pakistan</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email Us</h4>
+                <a href="mailto:info@technoxie.com">info@technoxie.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/923001234567" target="_blank">+92 300 1234567</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Business Hours</h4>
+                <p>Monday – Saturday: 9:00 AM – 8:00 PM</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.2274310849!2d74.00625129238777!3d31.483103675831777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="TECHNOXIE Office Location"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section reveal">
+        <h2>Prefer a Quick <span class="text-gradient">Chat</span>?</h2>
+        <p>Reach out via WhatsApp for an instant response. We're here to help!</p>
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-primary">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="../js/script.js"></script>
+  <script src="../js/animations.js"></script>
+</body>
+
+</html>
